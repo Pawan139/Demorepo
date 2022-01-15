@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Guru99 Application">
+
+	<listeners>
+		<listener class-name="ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Guru99 Application">
+		<classes>
+			<class name="Homepagetest.Homepagetest"></class>
+		
+
+		</classes>
+	</test>
+</suite>
